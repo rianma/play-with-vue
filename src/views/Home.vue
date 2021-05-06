@@ -7,7 +7,6 @@
 </template>
 
 <script lang="ts">
-/* eslint-disable no-console */
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component({})
