@@ -2,7 +2,7 @@
 
 This repo is for demonstrating all things related to Vue.js.
 
-**Note:** The repo does not involve Vue 3, mainly because currently Vue.js 3 is still under `next` release tag). For Vue 3 demos, see: [rianma/play-with-vue-3](https://github.com/rianma/play-with-vue-3)
+**Note:** The repo does not involve Vue 3, mainly because currently Vue.js 3 is still under `next` release tag). For Vue 3 demos, see: [rianma/play-with-vue3](https://github.com/rianma/play-with-vue3)
 
 ## Project setup
 
