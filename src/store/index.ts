@@ -1,15 +1,19 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import firebaseModule from './firebase';
 
 Vue.use(Vuex);
 
-export default new Vuex.Store({
+const store = new Vuex.Store({
   state: {
-  },
+  } as any,
   mutations: {
   },
   actions: {
   },
   modules: {
+    firebase: firebaseModule,
   },
 });
+
+export default store;

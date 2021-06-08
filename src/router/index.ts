@@ -20,6 +20,11 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
   {
+    path: '/firebase',
+    name: 'Firebase',
+    component: () => import(/* webpackChunkName: "firebase" */ '../views/Firebase.vue'),
+  },
+  {
     path: '/tasks-order',
     name: 'TasksOrder',
     component: TasksOrder,
