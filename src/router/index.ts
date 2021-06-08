@@ -24,6 +24,11 @@ const routes: Array<RouteConfig> = [
     name: 'TasksOrder',
     component: TasksOrder,
   },
+  {
+    path: '/azure',
+    name: 'Azure',
+    component: () => import(/* webpackChunkName: "azure-static-web-apps" */ '../views/Azure.vue'),
+  },
 ];
 
 const router = new VueRouter({
