@@ -26,7 +26,7 @@ import { Action, State } from 'vuex-class';
 export default class Azure extends Vue {
   @State('loggedInUser') loggedInUser: LoggedInUser;
 
-  @Action('fetchLoggedInUser') fetchLoggedInUser;
+  @Action('fetchLoggedInUser') fetchLoggedInUser: () => void;
 
   async created() {
     await this.fetchLoggedInUser();
