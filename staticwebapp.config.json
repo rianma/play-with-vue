@@ -8,5 +8,11 @@
         }
       }
     }
+  },
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "*.{jpg,gif,png,js,css,ico}"
+    ]
   }
 }
