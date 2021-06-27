@@ -13,6 +13,10 @@
           <a href="/.auth/login/github">Click here to login</a>
         </p>
       </div>
+
+      <div>
+        <a href="/api/GetMessage?name=world">Click here to open /api/GetMessage</a>
+      </div>
   </div>
 </template>
 <script lang="ts">
