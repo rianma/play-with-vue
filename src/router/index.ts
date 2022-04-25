@@ -25,6 +25,11 @@ const routes: Array<RouteConfig> = [
     name: 'MonacoEditorDemo',
     component: MonacoEditorDemo,
   },
+  {
+    path: '/azure',
+    name: 'Azure',
+    component: () => import(/* webpackChunkName: "azure-static-web-apps" */ '../views/Azure.vue'),
+  },
 ];
 
 const router = new VueRouter({

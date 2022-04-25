@@ -1,0 +1,18 @@
+{
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+  },
+  "editor.formatOnSave": false,
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.defaultFormatter.ts": "none",
+  "azureFunctions.deploySubpath": "api",
+  "azureFunctions.postDeployTask": "npm install",
+  "azureFunctions.projectLanguage": "JavaScript",
+  "azureFunctions.projectRuntime": "~3",
+  "debug.internalConsoleOptions": "neverOpen",
+  "azureFunctions.preDeployTask": "npm prune"
+}
