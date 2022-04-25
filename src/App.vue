@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/azure">Azure</router-link> |
-      <router-link to="/tasks-order">Tasks Order</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/monaco-editor-demo">Monaco Editor Demo</router-link>
     </div>
     <router-view/>
   </div>
