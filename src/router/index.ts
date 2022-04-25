@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
 import Home from '../views/Home.vue';
-import TasksOrder from '../views/TasksOrder.vue';
+
+const MonacoEditorDemo = () => import('../views/MonacoEditorDemo.vue');
 
 Vue.use(VueRouter);
 
@@ -20,9 +21,9 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
   {
-    path: '/tasks-order',
-    name: 'TasksOrder',
-    component: TasksOrder,
+    path: '/monaco-editor-demo',
+    name: 'MonacoEditorDemo',
+    component: MonacoEditorDemo,
   },
 ];
 
